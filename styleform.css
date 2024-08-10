@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    margin: 0;
+    background-color: white;
+    height: 100%;
+    font-family: "Imprima", sans-serif;;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background-color: blue;
+}
+.container{
+    display: flex;
+    cursor: pointer;
+    align-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-shrink: 1;
+    justify-content: center;
+}
+.bot{
+    background-color: blue;
+    align-content: center;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.bot-1{
+    text-decoration: none;
+    color: white;
+}
+.bot:hover{
+    background-color:darkblue;
+}
+
+h1{
+    text-align: center;
+}
+.email , .name , .password{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 400px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+   
+}
+.cadastre{
+    color: #4B0082;
+}
+.acessar{
+    width: 400px;
+    height: 30px;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+}
+.e-senha{
+    float: right;
+}
+.btc-1{
+    background-color: blue;
+    color: white;
+}
+.btc-2{
+    background-color: Lavender;
+    color: blue;
+}
+.google{
+    float: left;
+   
+}
+.footer{
+    display: inline-block;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    color: white;
+   margin-top: auto;
+   margin-bottom: 0s;
+}
